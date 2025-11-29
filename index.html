@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extensions</title>
+</head>
+<style>
+    body {
+        background-color: rgb(0, 0, 44);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+    }
+
+    .header {
+        background-color: gray;
+        width: 870px;
+        height: 70px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        color: rgb(1, 1, 212);
+        padding-left: 50px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        max-width: 1200px;
+    }
+
+    .box {
+        background-color: #2e334d;
+        border-radius: 10px;
+        padding: 15px;
+        width: 260px;
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .box img {
+        width: 100px;
+        height: 60px;
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .info h3 {
+        font-size: 16px;
+    }
+
+    .info p {
+        font-size: 13px;
+        color: white;
+        margin: 6px 12px;
+        height: 100px;
+        padding-top: 50px;
+    }
+
+    .click {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    button {
+        border-radius: 5px;
+        padding: 5px 10px;
+        cursor: pointer;
+        font-size: 13px;
+    }
+
+    .remove {
+        color: rgb(3, 3, 3);
+        border-radius: 40px;
+        border: 2px solid white;
+    }
+
+    .clickme {
+        background-color: white;
+        color: black;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <img src="assets/images/logo.svg">
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <img src="assets/images/logo-devlens.svg">
+            <div class="info">
+                <h3><b>DevLens</b></h3>
+                <p class="center">Quickly inspect page layouts and visualize element boundaries.</p>
+                <div class="click">
+                    <button class="remove">Remove</button>
+                    <button class="clickme">click me</button>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/logo-style-spy.svg">
+            <div class="info">
+                <h3><b>StyleSpy</b></h3>
+                <p class="center">Instantly analyze and copy CSS from any webpage element.</p>
+                <div class="click">
+                    <button class="remove">Remove</button>
+                    <button class="clickme">click me</button>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/logo-speed-boost.svg">
+            <div class="info">
+                <h3><b>SpeedBoost</b></h3>
+                <p class="center">Optimizes browser resource usage to accelerate page loading.</p>
+                <div class="click">
+                    <button class="remove">Remove</button>
+                    <button class="clickme">click me</button>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/logo-json-wizard.svg">
+            <div class="info">
+                <h3><b>JSONWizard</b></h3>
+                <p class="center">Formats, validates, and prettifies JSON responses in-browser.</p>
+                <div class="click">
+                    <button class="remove">Remove</button>
+                    <button class="clickme">click me</button>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/logo-tab-master-pro.svg">
+            <div class="info">
+                <h3><b>TabMaster Pro</b></h3>
+                <p class="center">Organizes browser tabs into groups and sessions.</p>
+                <div class="click">
+                    <button class="remove">Remove</button>
+                    <button class="clickme">click me</button>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/logo-viewport-buddy.svg">
+            <div class="info">
+                <h3><b>ViewportBuddy</b></h3>
+                <p class="center">Simulates various screen resolutions directly within the browser.</p>
+                <div class="click">
+                    <button class="remove">Remove</button>
+                    <button class="clickme">click me</button>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/logo-markup-notes.svg">
+            <div class="info">
+                <h3><b>Markup Notes</b></h3>
+                <p class="center">Enables annotation and notes directly onto webpages for collaborative debugging..</p>
+                <div class="click">
+                    <button class="remove">Remove</button>
+                    <button class="clickme">click me</button>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/logo-grid-guides.svg">
+            <div class="info">
+                <h3><b>GridGuides</b></h3>
+                <p class="center">Overlay customizable grids and alignment guides on any webpage.</p>
+                <div class="click">
+                    <button class="remove">Remove</button>
+                    <button class="clickme">click me</button>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/logo-palette-picker.svg">
+            <div class="info">
+                <h3><b>Palette Picker</b></h3>
+                <p class="center">Instantly extracts color palettes from any webpage.</p>
+                <div class="click">
+                    <button class="remove">Remove</button>
+                    <button class="clickme">click me</button>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/logo-link-checker.svg">
+            <div class="info">
+                <h3><b>LinkChecker</b></h3>
+                <p class="center">Scans and highlights broken links on any page.</p>
+                <div class="click">
+                    <button class="remove">Remove</button>
+                    <button class="clickme">click me</button>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/logo-dom-snapshot.svg">
+            <div class="info">
+                <h3><b>DOM Snapshot</b></h3>
+                <p class="center">Capture and export DOM
+                    structures quickly.</p>
+                <div class="click">
+                    <button class="remove">Remove</button>
+                    <button class="clickme">click me</button>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <img src="assets/images/logo-console-plus.svg">
+            <div class="info">
+                <h3><b>ConsolePlus</b></h3>
+                <p class="center">Enhanced developer console with advanced filtering and logging.</p>
+                <div class="click">
+                    <button class="remove">Remove</button>
+                    <button class="clickme">click me</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
